@@ -1,23 +1,28 @@
 <html>
 
-    <head>
-        <script src="./script.js"></script>
-        <link rel="stylesheet" href="./style.css">
-    </head>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-    <body>
-        <form>
-            <h1>Pretty in Pink...</h1>
-            <h2>is as good as it gets.</h2>
-            <input type="text" id="a" />
-            <span>+</span>
-            <input type="text" id="b" />
-            <input type="button" value="=" onclick="sum()" />
-        </form>
-        
+<body>
+    <form>
+        <h1>Pretty in Pink...</h1>
+        <h2>is as good as it gets.</h2>
+        <input type="text" id="a" />
+        <select id="operator">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+        <input type="text" id="b" />
+        <input type="button" value="=" onclick="sum()" />
 
-        <span id="total"></span>
-
-    </body>
+    </form>
+    <span id="total"></span>
+    <Div></Div>
+    <img src="PrettyKT.jpeg" alt="Pretty Kitty">
+</body>
 
 </html>
